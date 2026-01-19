@@ -1,16 +1,10 @@
-# id_photo_mobile_app
+# ID-all
 
-A new Flutter project.
+This project is made and written using Flutter. It is a simple mobile app that can turn your photos to an ID pic.
 
-## Getting Started
+Other small features:
+- Doesn't need internet
+- User can create their own package
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Note:
+- User needs to upload a photo of them as if they're getting an ID pic from a photographer.
