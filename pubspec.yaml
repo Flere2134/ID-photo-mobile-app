@@ -1,0 +1,34 @@
+name: id_photo_app
+description: An offline ID photo generator.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # The "Eyes": To pick the photo
+  image_picker: ^1.0.7
+  
+  # The "Brain": To find the person (Offline)
+  google_mlkit_subject_segmentation: ^0.0.2
+  
+  # The "Hands": To crop, resize, and paste pixels
+  image: ^4.1.3
+  
+  # To save files to Gallery
+  gal: ^2.3.0
+  
+  # Helper for file paths
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
